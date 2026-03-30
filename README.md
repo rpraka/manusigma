@@ -55,3 +55,18 @@ Your site URL will be:
 
 If your repo is a project page, this setup automatically sets the correct `basePath`
 and asset prefix during GitHub Actions builds.
+
+## GitHub Codespaces (no terminal required for startup)
+
+This repository includes a `.devcontainer` setup so the app starts automatically in
+Codespaces.
+
+### Use it from GitHub web UI
+
+1. Open the repository on GitHub.
+2. Click **Code -> Codespaces -> Create codespace on branch**.
+3. Wait for the codespace to finish booting. The app auto-installs dependencies and
+   starts on port `3000`.
+4. Open the **Ports** panel.
+5. For port `3000`, set visibility to **Public**.
+6. Open the forwarded HTTPS URL on your phone from any network.
